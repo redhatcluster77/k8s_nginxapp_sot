@@ -5,9 +5,9 @@ metadata:
   namespace: fluxcdtutorial
 spec:
   interval: 30s
-  path: ./deploy
+  path: ./deploy/nginxapp
   prune: true
   wait: true
   sourceRef:
     kind: GitRepository
-    name: k8s_nginxapp_sot
+    name: k8s-nginxapp-sot      ## ekhane GitRepository metadata.name ke refer korche

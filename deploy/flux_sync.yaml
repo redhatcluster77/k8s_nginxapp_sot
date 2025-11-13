@@ -5,7 +5,7 @@ metadata:
   namespace: fluxcdtutorial
 spec:
   interval: 30s
-  path: ./deploy/nginxapp
+  path: ./deploy
   prune: true
   wait: true
   sourceRef:
